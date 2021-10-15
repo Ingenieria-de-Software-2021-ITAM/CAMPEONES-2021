@@ -1,7 +1,7 @@
 # REQ-3
 ## Forzar a los usuarios a cambiar su contraseña cada 6 meses.
 
-
+<i>Decomposition and Recomposition</i>
 
 | (dias)                         | Best Case |  Most Likely case |  Worst Case |  Expected Case | 
 | :---                          |    :----:   |     :----:   |     :----:   |     :----:   | 
