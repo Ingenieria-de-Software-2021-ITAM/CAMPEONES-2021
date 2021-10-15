@@ -13,7 +13,10 @@ Además cuando se detecte una sesión en un nuevo dispositivo deberá pedir una 
  Establecer una conexión segura por medio de algún protocolo de crifado.
  
 ### REQ-2
-  Autenticación de dos pasos vía SMS cuando se detecte una sesión en un dispositivo nuevo
+  Autenticación de dos pasos vía SMS cuando se detecte una sesión en un dispositivo nuevo.
+
+### REQ-3
+  Forzar a los usuarios a cambiar su contraseña cada 6 meses.
 
 
 
