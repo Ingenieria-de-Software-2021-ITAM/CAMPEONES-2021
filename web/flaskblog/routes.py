@@ -62,13 +62,13 @@ def logout():
     return redirect(url_for('home'))
 
 
-def save_picture(form_picture):
+def save_picture(form_picture, output_size=(125,125)):
     random_hex = secrets.token_hex(8)
     _, f_ext = os.path.splitext(form_picture.filename)
     picture_fn = random_hex + f_ext
     picture_path = os.path.join(app.root_path,'static/profile_pics',picture_fn)
 
-    output_size = (125,125)
+    #output_size = (125,125)
     i = Image.open(form_picture)
     i.thumbnail(output_size)
     i.save(picture_path)
@@ -101,12 +101,21 @@ def account():
 def post_new():
     form = PostForm()
     if form.validate_on_submit():
-        post = Post(title=form.title.data, content=form.content.data, author=current_user)
+        post = Post(title=form.title.data, content=form.content.data, author=current_user)  
+        print(form.picture.data) 
+        if form.picture.data:
+            picture_file = save_picture(form.picture.data, (512,512))
+            print('saving')
+            #post = Post(title=form.title.data, content=form.content.data, author=current_user, picture=picture_file)
+            post.image_file = picture_file
+        
+                 
         db.session.add(post)
         db.session.commit()
         flash('Your post has been created', 'success')
         return redirect(url_for('home'))
     return render_template('create_post.html',title='New Post', form = form, legend = 'New Post')
+    
 
 @app.route('/post/<int:post_id>')
 @login_required
@@ -163,4 +172,24 @@ def like(post_id):
     else:   #el usuario está quitando el like
         post.liked_by.remove(result[0])
     db.session.commit()
+    
+    ppage = request.args.get('page')
+    print(ppage)
+    proute = request.args.get('route')
+    print(proute)
+    puser = request.args.get('username')
+    #flash("Welcome back!", 'success')
+    #print('like')
+    if proute:
+        if(ppage):
+            
+            return redirect(url_for(proute, page = ppage))   
+        else:
+            if(proute=='post'):
+                return redirect(url_for(proute, post_id= post_id)) 
+            elif(proute=='user_posts'):
+                return redirect(url_for(proute, username= puser)) 
+            return redirect(url_for(proute, page = ppage))  
+
     return redirect(url_for('home'))
+    

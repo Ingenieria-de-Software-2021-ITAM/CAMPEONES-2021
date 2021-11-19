@@ -13,11 +13,15 @@
           </div>
           <h2><a class="article-title" href="{{url_for('post', post_id=post.id)}}">{{ post.title }}</a></h2>
           <p class="article-content">{{ post.content }}</p>
+          {% if post.image_file != 'none' %}
+          <img src="{{ url_for('static',filename='profile_pics/'+post.image_file)}}" class="img-fluid" alt="...">
+          {% endif %}
+          <br>
         </div>
         <!-- Like -->
         {% if current_user.is_authenticated %}
         <div class="btn-toolbar">
-            <form action="{{url_for('like', post_id=post.id)}}" method="POST">
+            <form action="{{url_for('like', post_id=post.id, route='user_posts', username=post.author.username)}}" method="POST">
               {% if post.liked_by.filter_by(id=current_user.id).first() %}
                 <button type="submit" class="btn btn-outline-primary">
                   Votes <span class="badge bg-primary">{{post.liked_by.count()}}</span>
