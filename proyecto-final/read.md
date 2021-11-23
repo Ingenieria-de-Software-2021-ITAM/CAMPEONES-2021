@@ -1,2 +1,8 @@
-yes
-![](https://i.kym-cdn.com/photos/images/newsfeed/002/083/891/397.jpg)
+
+
+
+
+
+
+## Metodología
+Utilizamos la metodología feature driven para nuestro proyecto, para saber más haz clic [aquí](proyecto-final/metodologia.md)
