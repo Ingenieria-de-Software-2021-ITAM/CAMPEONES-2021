@@ -6,7 +6,7 @@
 </ul>
 
 ## instrucciones 
-
+Aunque la página es visible en http://www.lamaquinacementera.com/ . Se puede replicar un host offline con las siguientes instrucciones.
 ### descarga el repositorio en tu equipo
 para esto se puede descargar el .zip de repositorio o usar  `git clone` con el cliente ssh del repositorio: `git@github.com:Ingenieria-de-Software-2021-ITAM/CAMPEONES-2021.git`
 
