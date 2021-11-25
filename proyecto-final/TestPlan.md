@@ -28,8 +28,8 @@
 <ul>
     <li>contraseñas olvidadas</li>
     <li>regulación de contenido posteado</li>
-    <li>1</li>
-    <li>2</li>
+    <li>procesos asincronos</li>
+    
   </ul>
 
 ## 6) Features to be Tested 
