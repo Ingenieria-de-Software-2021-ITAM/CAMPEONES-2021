@@ -22,6 +22,7 @@
     <li>encriptacion de contraseñas</li>
     <li>sistema de voto / likes por publicación</li>
   </ul>
+  
 ## 5) Software Risk Issues 
 ## 6) Features to be Tested 
 ## 7) Features not to be Tested 
