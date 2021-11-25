@@ -30,13 +30,15 @@ Este producto será utilizado por alumnos, profesores y administradores.
 Todos los usuarios pueden tener una cuenta, hacer publicaciones y dejar likes.
 En un futuro se espera tener comentarios y una forma de compartir propuestas que le gustan a los usuarios para que tengan más alcance.
 
-## 3 System Features
+## 3 External Interface Requirements
 
-### 3.1 Likes
+## 4 System Features
+
+### 4.1 Likes
   Función del sitio para expresar la opinión de la comunidad al respecto de propuestas individuales.
 
-### 3.2 Logins y registros con contraseña encriptada
+### 4.2 Logins y registros con contraseña encriptada
   Esto permite al sitio tener seguridad gracias a una pared de encriptación necesaria para evitar ataques, hackeos y mantener segura la información sensible dentro de la plataforma.
 
-### 3.3 Perfiles customizables
+### 4.3 Perfiles customizables
   Capacidad de tener una foto de perfil para que los demás puedan identificarte, en un futuro se agregarán más opciones de personalización como agregar una bio.
