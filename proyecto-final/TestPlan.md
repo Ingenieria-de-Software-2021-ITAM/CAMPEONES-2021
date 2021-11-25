@@ -24,6 +24,14 @@
   </ul>
   
 ## 5) Software Risk Issues 
+
+<ul>
+    <li>contraseñas olvidadas</li>
+    <li>regulación de contenido posteado</li>
+    <li>1</li>
+    <li>2</li>
+  </ul>
+
 ## 6) Features to be Tested 
 ## 7) Features not to be Tested 
 ## 8) Approach  
