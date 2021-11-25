@@ -15,6 +15,13 @@
   El objetivo de este plan de calidad es determinar que funcionalidades están listas y cuales incluir a futuro segun la metodologia propuesta al igual como el presupuesto estimado en la propuesta economica.
 
 ## 4) Test Items 
+
+  <ul>
+    <li>Publicación de proyectos</li>
+    <li>Personalización de perfiles</li>
+    <li>encriptacion de contraseñas</li>
+    <li>sistema de voto / likes por publicación</li>
+  </ul>
 ## 5) Software Risk Issues 
 ## 6) Features to be Tested 
 ## 7) Features not to be Tested 
