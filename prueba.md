@@ -33,7 +33,7 @@ Los administrativos pueden modificar cualquier registro en el sistema.
 
 ### 2.4 User Documentation
 
-Se incluirá un manual para todos los tipos de usuarios.
+Se incluirá un manual para todos los tipos de usuarios. 
 
 ## 3 System Features
 
