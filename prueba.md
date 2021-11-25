@@ -40,7 +40,7 @@ Se incluirá un manual para todos los tipos de usuarios.
 ### 3.1 Inscripción Automática  
   Función del sitio para inscribir materias del plan estudio más cercanas al semestre actual.
 
-### 3.2 Buscador de Materias
+### 3.2 Buscador de Materias 
   barra de navegación que permite encontrar materias por su nombre y te regresa su clave o te permite incribirlas directamente
 
 ### 3.3 Información detalla por grupo
