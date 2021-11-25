@@ -37,7 +37,7 @@ Se incluirá un manual para todos los tipos de usuarios.
 
 ## 3 System Features 
 
-### 3.1 Inscripción Automática 
+### 3.1 Inscripción Automática  
   Función del sitio para inscribir materias del plan estudio más cercanas al semestre actual.
 
 ### 3.2 Buscador de Materias
