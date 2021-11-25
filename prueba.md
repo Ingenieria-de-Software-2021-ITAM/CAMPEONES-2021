@@ -35,7 +35,7 @@ Los administrativos pueden modificar cualquier registro en el sistema.
 
 Se incluirá un manual para todos los tipos de usuarios. 
 
-## 3 System Features
+## 3 System Features 
 
 ### 3.1 Inscripción Automática 
   Función del sitio para inscribir materias del plan estudio más cercanas al semestre actual.
