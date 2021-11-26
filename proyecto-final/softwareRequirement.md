@@ -95,9 +95,9 @@ página para visualizar un post en especifico
   Stimulus: El usuario le interesa la página y quiere hacer una publicación o votar por un proyecto -> (action) el usuario presiona el voton de registro o inicio de sesión. ->(response) la página le responde con un formulario para recibir los datos. -> (action) el usuario llena y sube el formulario con sus datos.-> (response) la página le muestra una retroalimentacion acerca de si sus datos son correctos o si estos son incorrectos, le dicen cuales son.
   
   ### 4.2.3 Functional requirements
-  <b>REQ-1</b>: el usuario puede votar por un proyecto publicado en la página. <br>
-  <b>REQ-2</b>: el usuario puede quitar su voto por un proyecto publicado en la página por el que haya votado previamente. <br>
-  <b>REQ-3</b>: debe haber una diferencia visual entre los poryectos votados y no votados desde la perspectiva del usuario.  <br>
+  <b>REQ-1</b>: el usuario puede registrarse con un correo, una contraseña y un nombre de usuario <br>
+  <b>REQ-2</b>: el usuario puede iniciar sesión con su correo y contraseña <br>
+  <b>REQ-3</b>: la página debe mostrar errores de inicio de sesión y de registro  <br>
 
 ## 4.3 Perfiles customizables
   Capacidad de tener una foto de perfil para que los demás puedan identificarte, en un futuro se agregarán más opciones de personalización como agregar una bio.
