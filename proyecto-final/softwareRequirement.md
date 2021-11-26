@@ -66,7 +66,9 @@ página para visualizar un post en especifico
 ## 4.1 Likes / votos
   Función del sitio para expresar la opinión de la comunidad al respecto de propuestas individuales.
   
+  ### 4.1.1 Description and priority
   
+  El usuario puede votar por proyectos que le gusten (parecido a dar un "like" en una red social). Prioridad <b>alta</b> . 
   
   ![UML use case likes](https://i.imgur.com/KS0sUBd.png)
   
