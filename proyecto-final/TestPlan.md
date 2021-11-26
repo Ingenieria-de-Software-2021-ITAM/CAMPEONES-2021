@@ -19,8 +19,8 @@ El objetivo de este plan de calidad es determinar que funcionalidades están lis
   <ul>
     <li>Publicación de proyectos</li>
     <li>Personalización de perfiles</li>
-    <li>encriptacion de contraseñas</li>
-    <li>sistema de voto / likes por publicación</li>
+    <li>Encriptacion de contraseñas</li>
+    <li>Sistema de voto / likes por publicación</li>
   </ul>
   
 ## 5) Software Risk Issues
@@ -43,6 +43,13 @@ El objetivo de este plan de calidad es determinar que funcionalidades están lis
 </ul>
 
 ## 7) Features not to be Tested
+
+<ul>
+
+<li>  <u>Eliminación de un Post Publicado:</u> Esto será desconocido para el usuario pues no es sencillo encontrar para el usuario. Para realizar esto, deben entrar a sus posts, luego dar click en el título del post, y saldrá la opción de borrarlo. </li>
+
+
+</ul>
 
 ## 8) Approach
 
