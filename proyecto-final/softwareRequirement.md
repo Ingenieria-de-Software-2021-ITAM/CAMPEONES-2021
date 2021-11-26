@@ -30,7 +30,7 @@ Este producto será utilizado por alumnos, profesores y administradores.
 Todos los usuarios pueden tener una cuenta, hacer publicaciones y dejar likes.
 En un futuro se espera tener comentarios y una forma de compartir propuestas que le gustan a los usuarios para que tengan más alcance.
 
-## 3 External Interface Requirements
+# 3 External Interface Requirements
 
 ## 3.1 User Interfaces
 Todas las interfaces heredan la misma plantilla principal layout.hml . Existen 4 interfaces
@@ -51,15 +51,27 @@ página para visualizar un post en especifico
 
 ### new post
   interfaz para crear un nuevo post con un proyecto
-  ![new post](https://i.imgur.com/3YJ265I.png
+  ![new post](https://i.imgur.com/3YJ265I.png)
   
-## 4 System Features
+## 3.2 Hardware Interfaces
+  La aplicación es una página web responsiva, se puede ingresar desde celular u ordenador. Se hostea en una raspberry pi 4.
+## 3.3 Software Interface
+  La aplicación se hostea en un raspberry pi 4 con debian 10 usando python 3.9. Los web requests se procesan usando NGINX, este manda la lógica de python a gunicorn y procesa los archivos estaticos como los .html y los .css . La aplicación se desarrolla usando Flask y diferentes submodulos como flask-sqlalchemy para la conexión y manejo de una base de datos <i>sqlite</i>. 
+  
+## 3.4 Communications Interfaces
+  Las conexiones se hacen a través de TCP/HTTP (puerto 80). Se planea encriptar la comunicación vía TLS a futuro (HTTPS) usando un certificado de <i>let's encrypt</i> .
+  
+# 4 System Features
 
-### 4.1 Likes
+## 4.1 Likes / votos
   Función del sitio para expresar la opinión de la comunidad al respecto de propuestas individuales.
+  
+  <b>REQ-1</b>: el usuario puede votar por un proyecto publicado en la página.
+  <b>REQ-2</b>: el usuario puede quitar su voto por un proyecto publicado en la página por el que haya votado previamente.
+  <b>REQ-3</b>: debe haber una diferencia visual entre los poryectos votados y no votados desde la perspectiva del usuario.  
 
-### 4.2 Logins y registros con contraseña encriptada
+## 4.2 Logins y registros con contraseña encriptada
   Esto permite al sitio tener seguridad gracias a una pared de encriptación necesaria para evitar ataques, hackeos y mantener segura la información sensible dentro de la plataforma.
 
-### 4.3 Perfiles customizables
+## 4.3 Perfiles customizables
   Capacidad de tener una foto de perfil para que los demás puedan identificarte, en un futuro se agregarán más opciones de personalización como agregar una bio.
