@@ -73,6 +73,12 @@ Para la implementación de características dentro del proyecto se realizarán p
 </ul>
 
 ## 12) Remaining Test Tasks
+| Tarea | Asignada a | Status | 
+|------ | ---------- | ------ |
+| Crear la Base de Datos | TM, Dev | Completo |
+| Crear los planes de código | TM, PM| Completo |
+| Verificar funcionalidad | Dev, Cliente, TM | Pendiente |
+| Verificar fidelidad del producto a visión del cliente | Dev, Cliente, TM | Pendiente |
 
 ## 13) Environmental Needs
 
