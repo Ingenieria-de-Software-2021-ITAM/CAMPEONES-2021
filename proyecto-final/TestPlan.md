@@ -92,7 +92,24 @@ Aparte del equipo de desarrollo que incluye a los software developers, al projec
 Durante la duración del proyecto cada miembro del equipo será asignado como responsable de una función en la que no esté directamente involucrado con el fin de ayudar a quienes estén trabajando en esa función a tener ojos externos que les permita darse cuenta de errores de forma simple. También, el project manager se encargará de hacer estas pruebas para ayudar aún más a los distintos equipos.
 
 ## 16) Schedule
+Se asignaron los tiempos de entrega dentro del plan del proyecto para las siguientes actividades de prueba. Las fechas y horas específicas para cada actividad se definen en el cronograma del plan del proyecto. Las personas necesarias para cada proceso se detallan también en el cronograma y el plan del proyecto. La coordinación del personal requerido para cada tarea, equipo de prueba, equipo de desarrollo, administración y cliente será manejada por el gerente del proyecto en conjunto con los líderes del equipo de desarrollo y prueba.
+  * Revisión del documento de requisitos
+  * Desarrollo del plan de pruebas
+  * Creación de prototipos
+  * Creación de la base de datos
+  * Implementación de funciones en código
+  * Implementación del proyecto juntando las funciones
 
 ## 17) Planning Risks and Contingencies
+- Limitación del host para montar el proyecto, ya sea por la cantidad de operaciones que se realiza en un corto tiempo o por el guardado de información.
+- Falta de integrantes en el equipo del proyecto para realizar todas las funcionalidades requeridas de manera óptima
+- Búsqueda de una estructura sólida y confiable para asegurarnos que todo el proyecto como conjunto funcione.
+
 
 ## 18) Approvals
+| Nombre | Firma  |
+| ------ | ------ |
+| Alexander Perelman |:heavy_check_mark:|
+| Rodrigo Gil |:heavy_check_mark:|
+| Miguel Ángel Quintero |:heavy_check_mark:|
+| José Luis Gutiérrez |:heavy_check_mark:|
