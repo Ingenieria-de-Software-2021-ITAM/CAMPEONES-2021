@@ -32,6 +32,27 @@ En un futuro se espera tener comentarios y una forma de compartir propuestas que
 
 ## 3 External Interface Requirements
 
+## 3.1 User Interfaces
+Todas las interfaces heredan la misma plantilla principal layout.hml . Existen 4 interfaces
+
+### home
+Se deslpiegan los posts de los usuarios (todos) y se ordenan crónologicamente (de más nuevo a más viejo). Los votos solo son visibles a usuarios que hayan iniciado sesión
+![interfaz principal](https://i.imgur.com/H1r7wfJ.png)
+Cuando se inicia sesión
+![interfaz principal con sesión](https://i.imgur.com/G8Er9Oc.png)
+
+### register
+página de registros
+![register](https://i.imgur.com/v4RqeAQ.png)
+
+### post
+página para visualizar un post en especifico
+![post](https://i.imgur.com/5zdooUB.png)
+
+### new post
+  interfaz para crear un nuevo post con un proyecto
+  ![new post](https://i.imgur.com/3YJ265I.png
+  
 ## 4 System Features
 
 ### 4.1 Likes
