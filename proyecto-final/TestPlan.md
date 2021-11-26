@@ -60,8 +60,17 @@ Por parte del administrador del proyecto, este revisará que se haya creado bien
 Para la implementación de características dentro del proyecto se realizarán pruebas extensivas antes de ser aprobadas para su implementación en el producto abierto al público. Para estas pruebas se utilizaran distintos dispositivos que nos permitan hacer pruebas en muchos ambientes diferentes. Si no se observan diferencias o problemas significativos en alguno de esos ambientes se aprobará la función y se integrará lo antes posible.
 
 ## 10) Suspension Criteria and Resumption Requirements
+- Los servidores del ITAM están caídos. En esta situación el equipo de desarrollo debe esperar a que el personal del ITAM resuelva el problema para poder verificar la integridad del proyecto y así asegurar una experiencia de calidad. 
+- Un error en el código se sube al ambiente de ejecución. En esta situación el equipo de desarrollo revertirá la versión pública a la última estable y se pondrá a buscar arduamente la fuente del error para solucionarlo lo más rápido posible.
 
 ## 11) Test Deliverables
+<ul>
+
+<li> Ciclos Completos para realizar pruebas </li>
+<li> Lista de Incidencias y Errores en la aplicación </li>
+<li> Reportes de la funcionalidad de los usuarios de prueba </li>
+
+</ul>
 
 ## 12) Remaining Test Tasks
 
