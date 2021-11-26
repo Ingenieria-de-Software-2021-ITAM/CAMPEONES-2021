@@ -26,9 +26,9 @@ El objetivo de este plan de calidad es determinar que funcionalidades están lis
 ## 5) Software Risk Issues
 
 <ul>
-    <li>contraseñas olvidadas</li>
-    <li>regulación de contenido posteado</li>
-    <li>procesos asincronos</li>
+    <li>Contraseñas olvidadas</li>
+    <li>Regulación de contenido posteado</li>
+    <li>Procesos asincronos</li>
     
   </ul>
 
