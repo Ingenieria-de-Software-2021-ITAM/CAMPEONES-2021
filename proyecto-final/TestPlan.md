@@ -33,6 +33,10 @@
   </ul>
 
 ## 6) Features to be Tested 
+<ul>
+  <li>Registro de Cuenta: <strong>Low.</strong> </li>
+</ul>
+
 ## 7) Features not to be Tested 
 ## 8) Approach  
 ## 9) Item Pass/Fail Criteria 
