@@ -84,7 +84,8 @@ página para visualizar un post en especifico
 
 ## 4.2 Logins y registros con contraseña encriptada
   Esto permite al sitio tener seguridad gracias a una pared de encriptación necesaria para evitar ataques, hackeos y mantener segura la información sensible dentro de la plataforma.
-    ### 4.2.1 Description and priority
+  
+  ### 4.2.1 Description and priority
   
   El usuario puede registrarse con un correo y nombre de usuario. Puede después acceder a la página con sus credenciales (correo y contraseña). Prioridad <b>alta</b> . 
   
@@ -99,8 +100,23 @@ página para visualizar un post en especifico
   <b>REQ-2</b>: el usuario puede iniciar sesión con su correo y contraseña <br>
   <b>REQ-3</b>: la página debe mostrar errores de inicio de sesión y de registro  <br>
 
-## 4.3 Perfiles customizables
-  Capacidad de tener una foto de perfil para que los demás puedan identificarte, en un futuro se agregarán más opciones de personalización como agregar una bio.
+  ## 4.3 Perfiles customizables
+  Capacidad de tener una foto de perfil para que los demás puedan identificarte, en un futuro se agregarán más opciones de personalización como agregar una biografía.
+  
+   ### 4.3.1 Description and priority
+  
+  El usuario puede registrarse con un correo y nombre de usuario. Puede después acceder a la página con sus credenciales (correo y contraseña). Prioridad <b>baja</b> . 
+  
+  ![UML use case likes](https://i.imgur.com/3uaDGCQ.png)
+  
+  ### 4.3.2 Stimulus/Response Sequences
+    
+  Stimulus: El quiere personalizar su perfil para que los demás lo puedan identificar -> (action) el usuario accede su página de usuario y presiona el botón de actualiar/modificar ->(response) la página le responde con un formulario para recibir los datos. -> (action) el usuario llena y sube el formulario con sus datos.-> (response) la página le muestra una retroalimentacion acerca de si sus datos son correctos o si estos son incorrectos, le dicen cuales son.
+  
+  ### 4.3.3 Functional requirements
+  
+  <b>REQ-1</b>: el usuario puede cambiar su foto de perfil <br>  
+  <b>REQ-2</b>: la página debe mostrar errores con la información proporcionada por el usuario <br>
 
 # 5 Requerimientos no funcionales
 ### 5.1 Requerimientos de rendimiento
