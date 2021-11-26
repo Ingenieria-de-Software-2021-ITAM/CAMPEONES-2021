@@ -34,7 +34,7 @@
 
 ## 6) Features to be Tested 
 <ul>
-  <li>Registro de Cuenta: <strong>Low.</strong> </li>
+  <li> <u>Registro de Cuenta:</u> <strong>Low.</strong> </li>
 </ul>
 
 ## 7) Features not to be Tested 
