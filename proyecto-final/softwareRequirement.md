@@ -69,6 +69,8 @@ página para visualizar un post en especifico
   <b>REQ-1</b>: el usuario puede votar por un proyecto publicado en la página.
   <b>REQ-2</b>: el usuario puede quitar su voto por un proyecto publicado en la página por el que haya votado previamente.
   <b>REQ-3</b>: debe haber una diferencia visual entre los poryectos votados y no votados desde la perspectiva del usuario.  
+  
+  ![UML use case likes](https://i.imgur.com/KS0sUBd.png)
 
 ## 4.2 Logins y registros con contraseña encriptada
   Esto permite al sitio tener seguridad gracias a una pared de encriptación necesaria para evitar ataques, hackeos y mantener segura la información sensible dentro de la plataforma.
