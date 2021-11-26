@@ -52,8 +52,12 @@ El objetivo de este plan de calidad es determinar que funcionalidades están lis
 </ul>
 
 ## 8) Approach
+Al iniciar el proyecto, se consideró utilizar una librería para poder manejar de manera eficiente y sencilla el manejo de credenciales y creación de posts por cada cuenta. 
+El sistema será probado a través de un ciclo completo, es decir, creación de una cuenta, ingreso de la cuenta creada, creación de un proyecto en la página principal, y mediante otros usuarios dar "like" a los proyectos que más les guste.
+Por parte del administrador del proyecto, este revisará que se haya creado bien las credenciales y que los proyectos subidos esté bien identificado con el usuario que haya subido este mismo.
 
 ## 9) Item Pass/Fail Criteria
+Para la implementación de características dentro del proyecto se realizarán pruebas extensivas antes de ser aprobadas para su implementación en el producto abierto al público. Para estas pruebas se utilizaran distintos dispositivos que nos permitan hacer pruebas en muchos ambientes diferentes. Si no se observan diferencias o problemas significativos en alguno de esos ambientes se aprobará la función y se integrará lo antes posible.
 
 ## 10) Suspension Criteria and Resumption Requirements
 
