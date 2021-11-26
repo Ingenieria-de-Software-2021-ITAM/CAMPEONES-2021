@@ -75,3 +75,20 @@ página para visualizar un post en especifico
 
 ## 4.3 Perfiles customizables
   Capacidad de tener una foto de perfil para que los demás puedan identificarte, en un futuro se agregarán más opciones de personalización como agregar una bio.
+
+## 5 Requerimientos no funcionales
+### 5.1 Requerimientos de rendimiento
+Para asegurar una buena experiencia a los usuarios incluso si se tiene un flujo alto de usuarios es importante tener un servidor	que nos permita escalar el proyecto sin ser muy costoso. También es importante manejar los requests de forma eficiente para no tener a los usuarios en espera de forma innecesaria.
+### 5.2 Requerimientos de seguridad
+El proyecto se apega a los siguientes principios:
+
+ - Confidencialidad: proteger la información de los usuarios es una de las prioridades del equipo, por lo que toda la información personal que no se desea compartir con el público queda detrás de una pared de encriptación garantizando la privacidad.
+ - Autenticación: para proteger las cuentas de los usuarios se utiliza un sistema de contraseñas encriptadas, las cuales se pueden cambiar en caso de que se sospeche una brecha en la seguridad o un hackeo de la cuenta.
+
+### 5.3 Atributos de software de calidad
+Buscamos proveer un producto de calidad asegurando los siguientes principios:
+
+ - Adaptabilidad: el proyectó deberá ser utilizado tanto en dispositivos móviles como en PC's, además de en Windows, Mac y Linux en distintos navegadores.
+ - Mantenibilidad: el código será limpio, legible y fácil de entender, con el fin de simplificar la tarea de mantener el proyecto en un futuro para permitir que evolucione a medida que se necesiten distintas funciones o actualizaciones.
+### 5.4 Reglas
+Este proyecto opera bajo el estricto principio de la protección de datos, el cuál se logrará a través de las medidas de seguridad que se mencionan previamente. Además, en un futuro se implementara el rol de moderación para usuarios, el cual permitirá filtrar posts que se puedan considerar como ofensivos o inapropiados para la página.
