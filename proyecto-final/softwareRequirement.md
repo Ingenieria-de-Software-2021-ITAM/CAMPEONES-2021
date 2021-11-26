@@ -84,6 +84,20 @@ página para visualizar un post en especifico
 
 ## 4.2 Logins y registros con contraseña encriptada
   Esto permite al sitio tener seguridad gracias a una pared de encriptación necesaria para evitar ataques, hackeos y mantener segura la información sensible dentro de la plataforma.
+    ### 4.2.1 Description and priority
+  
+  El usuario puede registrarse con un correo y nombre de usuario. Puede después acceder a la página con sus credenciales (correo y contraseña). Prioridad <b>alta</b> . 
+  
+  ![UML use case likes](https://i.imgur.com/wqYEQnU.png)
+  
+  ### 4.2.2 Stimulus/Response Sequences
+    
+  Stimulus: El usuario le interesa la página y quiere hacer una publicación o votar por un proyecto -> (action) el usuario presiona el voton de registro o inicio de sesión. ->(response) la página le responde con un formulario para recibir los datos. -> (action) el usuario llena y sube el formulario con sus datos.-> (response) la página le muestra una retroalimentacion acerca de si sus datos son correctos o si estos son incorrectos, le dicen cuales son.
+  
+  ### 4.2.3 Functional requirements
+  <b>REQ-1</b>: el usuario puede registrarse con un correo, una contraseña y un nombre de usuario <br>
+  <b>REQ-2</b>: el usuario puede iniciar sesión con su correo y contraseña <br>
+  <b>REQ-3</b>: la página debe mostrar errores de inicio de sesión y de registro  <br>
 
 ## 4.3 Perfiles customizables
   Capacidad de tener una foto de perfil para que los demás puedan identificarte, en un futuro se agregarán más opciones de personalización como agregar una bio.
