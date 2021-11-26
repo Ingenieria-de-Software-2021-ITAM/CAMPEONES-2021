@@ -81,10 +81,15 @@ Para la implementación de características dentro del proyecto se realizarán p
 | Verificar fidelidad del producto a visión del cliente | Dev, Cliente, TM | Pendiente |
 
 ## 13) Environmental Needs
+- Tener una Base de Datos de Prueba para probar la inserción de información.
+- Logs en cada operación CRUD.
+- Manejo de versiones.
 
 ## 14) Staffing and Training Needs
+Aparte del equipo de desarrollo que incluye a los software developers, al project manager, al dev ops y a los diseñadores, será necesario contratar al personal pertinente que nos permita hacer pruebas regulares sobre el sistema para permitirnos saber si existe algún problema con el sistema cada que se lance una versión o funcionalidad nueva. Además de verificar la compatibilidad de dichas versiones y funcionalidades con los dispositivos que soporta la herramienta.
 
 ## 15) Responsibilities
+Durante la duración del proyecto cada miembro del equipo será asignado como responsable de una función en la que no esté directamente involucrado con el fin de ayudar a quienes estén trabajando en esa función a tener ojos externos que les permita darse cuenta de errores de forma simple. También, el project manager se encargará de hacer estas pruebas para ayudar aún más a los distintos equipos.
 
 ## 16) Schedule
 
