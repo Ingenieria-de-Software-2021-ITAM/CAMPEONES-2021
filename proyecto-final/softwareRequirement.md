@@ -66,9 +66,9 @@ página para visualizar un post en especifico
 ## 4.1 Likes / votos
   Función del sitio para expresar la opinión de la comunidad al respecto de propuestas individuales.
   
-  <b>REQ-1</b>: el usuario puede votar por un proyecto publicado en la página.
-  <b>REQ-2</b>: el usuario puede quitar su voto por un proyecto publicado en la página por el que haya votado previamente.
-  <b>REQ-3</b>: debe haber una diferencia visual entre los poryectos votados y no votados desde la perspectiva del usuario.  
+  <b>REQ-1</b>: el usuario puede votar por un proyecto publicado en la página. <br>
+  <b>REQ-2</b>: el usuario puede quitar su voto por un proyecto publicado en la página por el que haya votado previamente. <br>
+  <b>REQ-3</b>: debe haber una diferencia visual entre los poryectos votados y no votados desde la perspectiva del usuario.  <br>
   
   ![UML use case likes](https://i.imgur.com/KS0sUBd.png)
 
