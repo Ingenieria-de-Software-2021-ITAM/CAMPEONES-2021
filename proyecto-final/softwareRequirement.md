@@ -30,7 +30,7 @@ Este producto será utilizado por alumnos, profesores y administradores.
 Todos los usuarios pueden tener una cuenta, hacer publicaciones y dejar likes.
 En un futuro se espera tener comentarios y una forma de compartir propuestas que le gustan a los usuarios para que tengan más alcance.
 
-## 3 External Interface Requirements
+# 3 External Interface Requirements
 
 ## 3.1 User Interfaces
 Todas las interfaces heredan la misma plantilla principal layout.hml . Existen 4 interfaces
@@ -53,13 +53,16 @@ página para visualizar un post en especifico
   interfaz para crear un nuevo post con un proyecto
   ![new post](https://i.imgur.com/3YJ265I.png
   
-## 4 System Features
+## 3.2 Hardware Interfaces
+  La aplicación es una página web responsiva, se puede ingresar desde celular u ordenador. Se hostea en una raspberry pi 4 con OS debian 10
+  
+# 4 System Features
 
-### 4.1 Likes
+## 4.1 Likes
   Función del sitio para expresar la opinión de la comunidad al respecto de propuestas individuales.
 
-### 4.2 Logins y registros con contraseña encriptada
+## 4.2 Logins y registros con contraseña encriptada
   Esto permite al sitio tener seguridad gracias a una pared de encriptación necesaria para evitar ataques, hackeos y mantener segura la información sensible dentro de la plataforma.
 
-### 4.3 Perfiles customizables
+## 4.3 Perfiles customizables
   Capacidad de tener una foto de perfil para que los demás puedan identificarte, en un futuro se agregarán más opciones de personalización como agregar una bio.
