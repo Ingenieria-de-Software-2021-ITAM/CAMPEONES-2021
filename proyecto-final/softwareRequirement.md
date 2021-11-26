@@ -51,10 +51,15 @@ página para visualizar un post en especifico
 
 ### new post
   interfaz para crear un nuevo post con un proyecto
-  ![new post](https://i.imgur.com/3YJ265I.png
+  ![new post](https://i.imgur.com/3YJ265I.png)
   
 ## 3.2 Hardware Interfaces
-  La aplicación es una página web responsiva, se puede ingresar desde celular u ordenador. Se hostea en una raspberry pi 4 con OS debian 10
+  La aplicación es una página web responsiva, se puede ingresar desde celular u ordenador. Se hostea en una raspberry pi 4.
+## 3.3 Software Interface
+  La aplicación se hostea en un raspberry pi 4 con debian 10 usando python 3.9. Los web requests se procesan usando NGINX, este manda la lógica de python a gunicorn y procesa los archivos estaticos como los .html y los .css . La aplicación se desarrolla usando Flask y diferentes submodulos como flask-sqlalchemy para la conexión y manejo de una base de datos <i>sqlite</i>. 
+  
+## 3.4 Communications Interfaces
+  Las conexiones se hacen a través de TCP/HTTP (puerto 80). Se planea encriptar la comunicación vía TLS a futuro (HTTPS) usando un certificado de <i>let's encrypt</i> .
   
 # 4 System Features
 
